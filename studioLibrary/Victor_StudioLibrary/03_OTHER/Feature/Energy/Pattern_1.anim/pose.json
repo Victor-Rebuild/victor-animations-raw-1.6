@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "mayaSceneFile": "/Users/isabelabradley/workspace/cozmo-animation/scenes/anim/Needs/Energy/anim_energy_cubereact.ma", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 116, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "user": "isabelabradley", 
+    "startFrame": 0, 
+    "timeUnit": "ntsc", 
+    "mayaVersion": "2016"
+  }
+,
+  "objects": {
+    "x:backpack_ctrl": {
+      "attrs": {
+        "frontGreen": {
+          "curve": "CURVE1", 
+          "type": "double", 
+          "value": 0.0004131485102230975
+        }, 
+        "backGreen": {
+          "curve": "CURVE2", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "frontBlue": {
+          "curve": "CURVE3", 
+          "type": "double", 
+          "value": 0.00042228226807721966
+        }, 
+        "rightBrightness": {
+          "curve": "CURVE4", 
+          "type": "double", 
+          "value": 0.0004131485102230975
+        }, 
+        "middleRed": {
+          "curve": "CURVE5", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleGreen": {
+          "curve": "CURVE6", 
+          "type": "double", 
+          "value": 0.0004131485102230975
+        }, 
+        "frontRed": {
+          "curve": "CURVE7", 
+          "type": "double", 
+          "value": 0.0004131485102230975
+        }, 
+        "backBlue": {
+          "curve": "CURVE8", 
+          "type": "double", 
+          "value": 0.00042228226807721966
+        }, 
+        "middleBlue": {
+          "curve": "CURVE9", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backRed": {
+          "curve": "CURVE10", 
+          "type": "double", 
+          "value": 0.0004131485102230975
+        }, 
+        "leftBrightness": {
+          "curve": "CURVE11", 
+          "type": "double", 
+          "value": 0.0004131485102230975
+        }
+      }
+    }
+  }
+}

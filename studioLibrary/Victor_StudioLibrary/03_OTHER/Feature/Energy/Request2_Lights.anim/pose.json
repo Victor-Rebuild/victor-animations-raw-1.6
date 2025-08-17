@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "mayaSceneFile": "/Users/isabelabradley/workspace/cozmo-animation/scenes/anim/Needs/Energy/anim_energy_requestenergy.ma", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 446, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "user": "isabelabradley", 
+    "startFrame": 300, 
+    "timeUnit": "ntsc", 
+    "mayaVersion": "2016"
+  }
+,
+  "objects": {
+    "x:mech_all_ctrl": {
+      "attrs": {
+        "Forward": {
+          "curve": "CURVE1", 
+          "type": "doubleLinear", 
+          "value": 2.4287090247428873
+        }, 
+        "Turn": {
+          "curve": "CURVE2", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "Radius": {
+          "curve": "CURVE3", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

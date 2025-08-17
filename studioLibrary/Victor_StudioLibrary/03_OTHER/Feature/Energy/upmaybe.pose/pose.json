@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "description": "", 
+    "user": "isabelabradley", 
+    "mayaSceneFile": "/Users/isabelabradley/workspace/cozmo-animation/scenes/anim/Needs/Energy/anim_energy_cubereact.ma", 
+    "version": "1.0.0", 
+    "mayaVersion": "2016"
+  }
+,
+  "objects": {
+    "x:mech_upperLid_R_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 8.984011308416296
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.3623529697056446
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}

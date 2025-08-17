@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "description": "", 
+    "user": "isabelabradley", 
+    "mayaSceneFile": "/Users/isabelabradley/workspace/cozmo-animation/scenes/anim/Needs/Energy/anim_energy_cubereact.ma", 
+    "version": "1.0.0", 
+    "mayaVersion": "2016"
+  }
+,
+  "objects": {
+    "x:backpack_ctrl": {
+      "attrs": {
+        "frontGreen": {
+          "type": "double", 
+          "value": 0.73
+        }, 
+        "backGreen": {
+          "type": "double", 
+          "value": 0.73
+        }, 
+        "frontBlue": {
+          "type": "double", 
+          "value": 0.51
+        }, 
+        "rightBrightness": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleGreen": {
+          "type": "double", 
+          "value": 0.73
+        }, 
+        "frontRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backBlue": {
+          "type": "double", 
+          "value": 0.51
+        }, 
+        "middleBlue": {
+          "type": "double", 
+          "value": 0.51
+        }, 
+        "backRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "leftBrightness": {
+          "type": "double", 
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "metadata": {
+    "mayaSceneFile": "/Users/moolysegal/workspace/cozmo-animation/scenes/lo/Needs/Repair/repair_lo_01.ma", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 1210, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "user": "moolysegal", 
+    "startFrame": 1000, 
+    "timeUnit": "ntsc", 
+    "mayaVersion": "2016"
+  }
+,
+  "objects": {
+    "x:backpack_ctrl": {
+      "attrs": {
+        "frontGreen": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backGreen": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "frontBlue": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "rightBrightness": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleGreen": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "frontRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backBlue": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "middleBlue": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "backRed": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "leftBrightness": {
+          "type": "double", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:mech_eyes_all_ctrl": {
+      "attrs": {
+        "On": {
+          "type": "long", 
+          "value": 1
+        }, 
+        "translateX": {
+          "curve": "CURVE1", 
+          "type": "doubleLinear", 
+          "value": 0.001372689809700568
+        }, 
+        "translateY": {
+          "curve": "CURVE2", 
+          "type": "doubleLinear", 
+          "value": 0.050310074899584736
+        }, 
+        "scaleX": {
+          "curve": "CURVE3", 
+          "type": "double", 
+          "value": 0.9950875771585724
+        }, 
+        "scaleY": {
+          "curve": "CURVE4", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "flipOverscan": {
+          "type": "long", 
+          "value": 2
+        }, 
+        "rotateZ": {
+          "curve": "CURVE5", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:mech_head_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "curve": "CURVE7", 
+          "type": "doubleAngle", 
+          "value": -3.806926445516999
+        }
+      }
+    }, 
+    "x:treads_L_upr_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:eyeCorner_R_innerBtm_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE9", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }, 
+        "scaleY": {
+          "curve": "CURVE10", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }
+      }
+    }, 
+    "x:eyeCorner_L_innerBtm_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE12", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE13", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:mech_eye_R_ctrl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE15", 
+          "type": "doubleLinear", 
+          "value": 0.0017825030465460578
+        }, 
+        "rotateZ": {
+          "curve": "CURVE16", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE17", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "translateY": {
+          "curve": "CURVE18", 
+          "type": "doubleLinear", 
+          "value": 1.6385701974280308e-06
+        }, 
+        "scaleY": {
+          "curve": "CURVE19", 
+          "type": "double", 
+          "value": 0.9998936529449246
+        }
+      }
+    }, 
+    "x:eyeCorner_L_innerTop_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE21", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE22", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:scanlines_ctrl": {
+      "attrs": {
+        "ON": {
+          "curve": "CURVE24", 
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE25", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE26", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:eyeCorner_R_OuterBtm_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE28", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }, 
+        "scaleY": {
+          "curve": "CURVE29", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }
+      }
+    }, 
+    "x:mech_eye_L_ctrl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE31", 
+          "type": "doubleLinear", 
+          "value": 0.0015445563204739548
+        }, 
+        "rotateZ": {
+          "curve": "CURVE32", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE33", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "translateY": {
+          "curve": "CURVE34", 
+          "type": "doubleLinear", 
+          "value": 9.502105660562815e-05
+        }, 
+        "scaleY": {
+          "curve": "CURVE35", 
+          "type": "double", 
+          "value": 1.0011192806874492
+        }
+      }
+    }, 
+    "x:mech_upperLid_L_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "curve": "CURVE37", 
+          "type": "doubleAngle", 
+          "value": 13.840022123347104
+        }, 
+        "translateY": {
+          "curve": "CURVE38", 
+          "type": "doubleLinear", 
+          "value": -0.05617404746852511
+        }, 
+        "scaleY": {
+          "curve": "CURVE39", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:eyeCorner_L_OuterBtm_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE41", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE42", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:eyeCorner_L_OuterTop_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE44", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE45", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:virtual_arm_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:virtual_head_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:virtual_prop_ctrl": {
+      "attrs": {}
+    }, 
+    "x:eyeCorner_R_innerTop_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE47", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }, 
+        "scaleY": {
+          "curve": "CURVE48", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }
+      }
+    }, 
+    "x:virtual_backWheel_L_ctrl": {
+      "attrs": {
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:mech_arm_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "curve": "CURVE50", 
+          "type": "doubleAngle", 
+          "value": -7.426244457650896
+        }
+      }
+    }, 
+    "x:treads_R_upr_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:mech_lwrLid_L_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "curve": "CURVE52", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE53", 
+          "type": "doubleLinear", 
+          "value": -0.15722124056131898
+        }, 
+        "scaleY": {
+          "curve": "CURVE54", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:virtual_backWheel_R_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "x:eyeCorner_R_OuterTop_ctrl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE56", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }, 
+        "scaleY": {
+          "curve": "CURVE57", 
+          "type": "double", 
+          "value": 1.0008899445905244
+        }
+      }
+    }, 
+    "x:mech_upperLid_R_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "curve": "CURVE59", 
+          "type": "doubleAngle", 
+          "value": 6.20581705023018
+        }, 
+        "translateY": {
+          "curve": "CURVE60", 
+          "type": "doubleLinear", 
+          "value": -0.07510511139580296
+        }, 
+        "scaleY": {
+          "curve": "CURVE61", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "x:mech_lwrLid_R_ctrl": {
+      "attrs": {
+        "rotateZ": {
+          "curve": "CURVE63", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE64", 
+          "type": "doubleLinear", 
+          "value": -0.15741395577015999
+        }, 
+        "scaleY": {
+          "curve": "CURVE65", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}
